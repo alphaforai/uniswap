@@ -85,7 +85,7 @@ export const MAINNET_CHAIN_INFO = {
           http: ['https://rpc.ankr.com/eth', 'https://eth-mainnet.public.blastapi.io'],
         },
         [RPCType.Interface]: {
-          http: [`https://mainnet.infura.io/v3/${config.infuraKey}`, getQuicknodeEndpointUrl(UniverseChainId.Mainnet)],
+          http: ['https://virtual.mainnet.us-east.rpc.tenderly.co/33ad7a96-7b92-4373-94aa-37aa785b2721'],
         },
       },
   urlParam: 'ethereum',
